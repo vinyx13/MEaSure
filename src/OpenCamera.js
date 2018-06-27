@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
-import { StyleSheet, Text, Button } from 'react-native';
+import { Button } from 'react-native';
 
 export class OpenCamera extends Component {
     render() {
         return(
-            <Button onPress={openNativeCamera} title="Press Me"></Button>
+            <Button onPress={openNativeCamera} 
+            title="Press Me"></Button>
         );
     }
 }
